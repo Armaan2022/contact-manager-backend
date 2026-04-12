@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const { FindCursor } = require('mongodb');
-const User = require("../models/user")
+const User = require("../models/User")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
 
